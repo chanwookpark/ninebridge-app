@@ -1,0 +1,116 @@
+@charset "utf-8"; 
+
+/*html, body { margin: 0; padding: 0; }*/
+._ninebridge {
+	font-size: small; 
+	font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif, '맑은 고딕';
+	line-height: 1.6em; 
+	color: #666; 
+}
+
+._ninebridge { position: relative; }
+._ninebridge .hx { display: none; }
+._ninebridge .member strong { display: block; }
+._ninebridge .member li:after { 
+	content: ""; 
+	display: block; 
+	clear: both; 
+}
+._ninebridge .member img { float: left; }
+
+@media screen and (min-width: 640px) {
+	._ninebridge .conatctUs { 
+		position: absolute; 
+		top: 0; 
+		right: 0; 
+	}
+}
+
+
+
+
+
+
+._ninebridge > section {
+	padding-left: 1em; 
+	padding-right: 1em; 
+}
+._ninebridge p { margin: 0; }
+._ninebridge .vision h2 { margin: 0; }
+._ninebridge .logo img { height: 50px; }
+._ninebridge .member { margin-bottom: 3em; }
+._ninebridge .member ul { 
+	margin: 0; 
+	padding: 0; 
+}
+._ninebridge .member li { 
+	margin: .4em; 
+	padding: .4em; 
+	border: 1px dashed #eee;  
+}
+._ninebridge .member img { margin-right: .5em; width: 50px;  }
+._ninebridge .contents { padding: 1em; }
+._ninebridge .contents h1, 
+._ninebridge .contents h2 { margin: 0; }
+._ninebridge .contents dl {
+	margin: .2em .2em 1em .2em; 
+	padding: .5em; 
+	border: 1px dashed #ddd; 
+}
+._ninebridge .contents dt { margin: .5em 0; }
+._ninebridge .contents dd { margin-left: 1em; }
+
+@media screen and (min-width: 640px) {
+	html, body { 
+		margin: 0; 
+		padding: 0; 
+	}
+
+	._ninebridge header {
+		height: 100px; 
+		border-bottom: 2px solid #ddd;  
+	}
+	._ninebridge .logo {
+		margin: 0; 
+		padding: 0; 
+	}
+	._ninebridge .conatctUs {
+		padding: .5em 0;
+		width: 100%; 
+	}
+}
+
+
+
+
+
+._ninebridge h1, 
+._ninebridge h2 {
+	color: #333; 
+} 
+._ninebridge a { 
+	font-size: 1.2em; 
+	cursor: pointer; 
+}
+._ninebridge .logo,
+._ninebridge .vision h2 { 
+	text-transform: uppercase; 
+	text-shadow: 0 1px 0 #333; 
+}
+._ninebridge .contents h2 {
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #eee; 
+}
+._ninebridge .member ul { list-style-type: none; }
+
+
+@media screen and (min-width: 640px) {
+	._ninebridge .conatctUs {
+		text-align: right; 
+		background-color: #eee;
+	}
+}
+
+
+
+
