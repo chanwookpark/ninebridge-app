@@ -1,0 +1,56 @@
+@charset "utf-8"; 
+
+@media screen and (min-width: 800px) {
+	._ninebridge header { position: relative; }
+	._ninebridge .logo {
+		position: absolute;
+		bottom: 0; 
+		left: 0; 
+	}
+	._ninebridge .nav ul:after { content: ""; display: block; clear: both; }
+	/*._ninebridge .nav li { float: left; }*/
+	._ninebridge .conatctUs { 
+		position: absolute; 
+		top: 0; 
+		right: 0; 
+	}
+
+
+
+
+
+	html, body { 
+		margin: 0; 
+		padding: 0; 
+	}
+	._ninebridge .inr {
+		margin: 0 auto; 
+		width: 800px;
+	}
+	._ninebridge header {
+		height: 100px; 
+		border-bottom: 2px solid #ddd;  
+	}
+	._ninebridge .logo {
+		margin: 0; 
+		padding: 0; 
+	}
+	/*._ninebridge .nav ul { margin: 0; padding: 0; }
+	._ninebridge .nav li { margin: 0; padding: 0; }*/
+	._ninebridge .conatctUs {
+		padding: .5em 0;
+		width: 100%; 
+	}
+
+
+
+
+
+	._ninebridge .nav ul {
+		list-style-type: none; 
+	}
+	._ninebridge .conatctUs {
+		text-align: right; 
+		background-color: #eee;
+	}
+}
