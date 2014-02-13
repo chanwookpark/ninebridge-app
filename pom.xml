@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ninebridge</groupId>
-    <artifactId>tech-meetup-board</artifactId>
+    <artifactId>app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>NineBridge's Technology meet-up board</name>
-    <url>https://github.com/ninebridge/tech-meetup-board</url>
+    <name>NineBridge application</name>
+    <url>https://github.com/ninebridge/ninebridge-app</url>
 
     <dependencies>
 
