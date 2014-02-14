@@ -1,4 +1,4 @@
-tech-meetup-board
+Nine Bridge Application
 =================
 
-Technology meet up board for our member!
+
