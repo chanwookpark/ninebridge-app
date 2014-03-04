@@ -1,116 +1,158 @@
 @charset "utf-8"; 
 
+
+/* style & theme */
 /*html, body { margin: 0; padding: 0; }*/
-._ninebridge {
+
+.ninebridge {
 	font-size: small; 
-	font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif, '맑은 고딕';
+	font-family: Tahoma, '나눔 고딕';
 	line-height: 1.6em; 
 	color: #666; 
 }
+.ninebridge h1, 
+.ninebridge h2 { font-size: 1em; }
 
-._ninebridge { position: relative; }
-._ninebridge .hx { display: none; }
-._ninebridge .member strong { display: block; }
-._ninebridge .member li:after { 
-	content: ""; 
-	display: block; 
-	clear: both; 
+.ninebridge .nav { color: #999; line-height: 1.6; }
+.ninebridge .vcard a { color: #333; text-decoration: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* boxmodel */
+
+
+
+
+
+
+
+
+
+/* 다시 정의 */
+
+html, body { margin: 0; padding: 0; }
+
+
+.ninebridge { border-top: 40px solid #644bff; }
+.ninebridge .inr { display: block; }
+.ninebridge .inr { margin: 0 auto; width: 940px; }
+.ninebridge .hx { display: none; }
+
+
+
+
+.ninebridge .logo { font-size: 30px; line-height: 100px; color: #222; }
+.ninebridge .logo { position: relative; }
+.ninebridge .logo { margin: 0 auto; width: 940px; } 
+.ninebridge .logo .inr { position: absolute; }
+
+
+
+.ninebridge .nav { line-height: 100px; font-size: 20px; text-align: right; color: #202; }
+.ninebridge .nav ul { list-style-type: none; }
+.ninebridge .nav ul { margin: 0; padding: 0; }
+.ninebridge .nav li { display: inline; }
+.ninebridge .nav li { margin-left: 60px;  }
+
+
+
+.ninebridge .vision { 
+	background-color: #eee; 
+	text-align: center;
 }
-._ninebridge .member img { float: left; }
-
-@media screen and (min-width: 640px) {
-	._ninebridge .conatctUs { 
-		position: absolute; 
-		top: 0; 
-		right: 0; 
-	}
-}
-
-
-
-
-
-
-._ninebridge > section {
-	padding-left: 1em; 
-	padding-right: 1em; 
-}
-._ninebridge p { margin: 0; }
-._ninebridge .vision h2 { margin: 0; }
-._ninebridge .logo img { height: 50px; }
-._ninebridge .member { margin-bottom: 3em; }
-._ninebridge .member ul { 
-	margin: 0; 
-	padding: 0; 
-}
-._ninebridge .member li { 
-	margin: .4em; 
-	padding: .4em; 
-	border: 1px dashed #eee;  
-}
-._ninebridge .member img { margin-right: .5em; width: 50px;  }
-._ninebridge .contents { padding: 1em; }
-._ninebridge .contents h1, 
-._ninebridge .contents h2 { margin: 0; }
-._ninebridge .contents dl {
-	margin: .2em .2em 1em .2em; 
-	padding: .5em; 
-	border: 1px dashed #ddd; 
-}
-._ninebridge .contents dt { margin: .5em 0; }
-._ninebridge .contents dd { margin-left: 1em; }
-
-@media screen and (min-width: 640px) {
-	html, body { 
-		margin: 0; 
-		padding: 0; 
-	}
-
-	._ninebridge header {
-		height: 100px; 
-		border-bottom: 2px solid #ddd;  
-	}
-	._ninebridge .logo {
-		margin: 0; 
-		padding: 0; 
-	}
-	._ninebridge .conatctUs {
-		padding: .5em 0;
-		width: 100%; 
-	}
+.ninebridge .vision { 
+	padding: 4em 0;
+	height: 500px; 
+	border: 1px solid transparent; 
 }
 
-
-
-
-
-._ninebridge h1, 
-._ninebridge h2 {
-	color: #333; 
-} 
-._ninebridge a { 
-	font-size: 1.2em; 
-	cursor: pointer; 
+.ninebridge .vision .inr { 
+	background-color: #333; 
+	color: #fff; 
+	opacity: .8;
 }
-._ninebridge .logo,
-._ninebridge .vision h2 { 
-	text-transform: uppercase; 
-	text-shadow: 0 1px 0 #333; 
+.ninebridge .vision .inr { border: 1px solid transparent; }
+.ninebridge .vision .h1 { 
+	padding-bottom: 10px;
+	height: 160px; 
+	border-bottom: 1px solid #fff; 
 }
-._ninebridge .contents h2 {
-	font-size: 1.1em;
-	text-shadow: 1px 1px 1px #eee; 
-}
-._ninebridge .member ul { list-style-type: none; }
+.ninebridge .vision .h1 { margin: 1em; }
+.ninebridge .vision p { margin: 1em; }  
 
 
-@media screen and (min-width: 640px) {
-	._ninebridge .conatctUs {
-		text-align: right; 
-		background-color: #eee;
-	}
+.ninebridge .memberbx { border: 1px solid transparent; }
+.ninebridge .memberbx .h1 { color: #535; line-height: 160px; font-size: 32px; }
+.ninebridge .memberbx .h1 {
+	margin: 2em auto; 
+	width: 940px; 
 }
 
+
+
+
+.ninebridge .outer.a { background-color: #f0f0f0; }
+.ninebridge .outer.b { background-color: #fff; }
+.ninebridge .vcard:after { content: ""; display: block; clear: both; }
+.ninebridge .vcard { margin: 0 auto; width: 940px; }
+.ninebridge .vcard { position: relative; }
+.ninebridge .vcard img { float: right; }
+.ninebridge .vcard img { width: 300px; height: 290px; }
+.ninebridge .vcard .note { color: #747474; font-size: 18px; }
+.ninebridge .vcard .note { padding-top: 40px; width: 520px; }
+.ninebridge .vcard .box1 { position: absolute; bottom: 30px; right: 410px; }
+.ninebridge .vcard .fn { font-size: 30px; line-height: 40px; text-align: right; } 
+.ninebridge .vcard .fn { display: block; }
+.ninebridge .vcard .email { font-size: 18px; }
+
+
+
+.ninebridge .techBrunch header, 
+.ninebridge .schedule { background-color: #644bff; }
+.ninebridge .history { background-color: #41919c; }
+.ninebridge .techBrunch header,
+.ninebridge .schedule { color: #fff; }
+.ninebridge .schedule { border: 1px solid transparent; }
+
+.ninebridge .techBrunch header { height: 190px; }
+.ninebridge .techBrunch .h1 { font-size: 32px; font-weight: bold; }
+.ninebridge .techBrunch .h1 { margin: 0; padding-top: 65px; }
+.ninebridge .techBrunch p { font-size: 18px; }
+
+.ninebridge .schedule h2 { font-size: 28px; font-weight: normal; } 
+.ninebridge .schedule h2 { margin: 0 0 48px 0; }
+.ninebridge .schedule .subject a { color: #fff; font-style: italic; font-size: 24px; text-decoration: none; }
+.ninebridge .schedule .subject a { border-bottom: 1px solid #fff; }
+.ninebridge .schedule /*dt*/.secret a { color: #9483ff; }
+.ninebridge .schedule /*dt*/.secret a { border-bottom-color: #9483ff; }
+.ninebridge .schedule dd { margin: 0; }
+.ninebridge .schedule .fn { margin: 30px 0; } /* 이미지 사이즈 : 60x60, 이미지의 오른쪽 간격 : 10 */
+.ninebridge .schedule .note, 
+.ninebridge .schedule .tag { font-size: 18px; }
+.ninebridge .schedule .tag { margin-bottom: 38px; }
+
+.ninebridge .history { color: #fff; }
+.ninebridge .history { border: 1px solid transparent; }
+.ninebridge .history h2 { font-size: 24px; font-weight: normal; }
+.ninebridge .history h2 { margin: 50px 0; }
+.ninebridge .history .subject a { color: #fff; font-style: italic; font-size: 20px; text-decoration: none; }
+.ninebridge .history .subject a { border-bottom: 1px solid #fff; }
+.ninebridge .history /*dt*/.secret a { color: #77bac3; }
+.ninebridge .history /*dt*/.secret a { border-bottom-color: #77bac3; }
+.ninebridge .history dd { margin: 0; }
+.ninebridge .history .fn { margin: 30px 0; }
+.ninebridge .history .note, 
+.ninebridge .history .tag { font-size: 14px; }
+.ninebridge .history .tag { margin-bottom: 34px; }
 
 
 
