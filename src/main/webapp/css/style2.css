@@ -12,12 +12,12 @@
 .ninebridge .nav { color: #999; line-height: 1.6; }
 .ninebridge .vcard a { color: #333; text-decoration: none; }
 
-.nav li { line-height: 40px; cursor: pointer; color: #333; } 
+.nav li { line-height: 40px; color: #fff; } 
 .nav ul { list-style-type: none; }
-.vision { font-size: 1.2em; line-height: 1.6; font-weight: bold; }
-.memberbx { background: #eee; }
+.vision { font-size: 1.2em; line-height: 1.6; font-weight: bold; color: #41434d; }
+.memberbx { background: #dadfde; }
 .memberbx .h1 { line-height: 3.5em; font-size: 2em; }
-.vcard .fn { font-weight: bold; font-size: 1.5em; }
+.vcard .fn { font-size: 1.5em; }
 
 
 .techBrunch .h1 { background: url('../image/icon_clock.gif') no-repeat bottom center; }
@@ -35,7 +35,7 @@
 .techBrunch .secret { opacity: .5; }
 .techBrunch .cnt1 { background: #644bff; color: #fff; } 
 .techBrunch .cnt1 h2 { font-size: 1.5em; line-height: 3; }
-.techBrunch .cnt2 { background: #333; color: #fff;}
+.techBrunch .cnt2 { background: #2b939e; color: #fff;}
 .techBrunch .cnt2 h2 { font-size: 1.3em; line-height: 3; }
 
 
@@ -56,7 +56,7 @@ body {
 	border: 1px solid transparent;
 }
 
-.boardHtml { border-top: 40px solid #ccc; }
+.boardHtml { border-top: 40px solid #404550; }
 
 .logo { padding: 50px 0; text-align: center; }
 .nav { position: absolute; top: 0; 
