@@ -1,0 +1,99 @@
+@charset "utf-8"; 
+
+.ninebridge {
+	font-size: small; 
+	font-family: Tahoma, '나눔 고딕';
+	line-height: 1.6em; 
+	color: #666; 
+}
+.ninebridge h1, 
+.ninebridge h2 { font-size: 1em; }
+
+.ninebridge .nav { color: #999; line-height: 1.6; }
+.ninebridge .vcard a { color: #333; text-decoration: none; }
+
+.nav li { line-height: 40px; cursor: pointer; color: #333; } 
+.nav ul { list-style-type: none; }
+.vision { font-size: 1.2em; line-height: 1.6; font-weight: bold; }
+.memberbx { background: #eee; }
+.memberbx .h1 { line-height: 3.5em; font-size: 2em; }
+.vcard .fn { font-weight: bold; font-size: 1.5em; }
+
+
+.techBrunch .h1 { background: url('../image/icon_clock.gif') no-repeat bottom center; }
+.techBrunch header p {
+	background: url('../image/tip_techbrunch.gif') no-repeat bottom center; 
+	font-size: 1.5em;
+}
+.techBrunch .h1 { line-height: 3.5em; font-size: 3em; }
+.techBrunch a { 
+	color: #fff; 
+	text-decoration: none; 
+	font-size: 1.2em; 
+	font-style: italic;
+}
+.techBrunch .secret { opacity: .5; }
+.techBrunch .cnt1 { background: #644bff; color: #fff; } 
+.techBrunch .cnt1 h2 { font-size: 1.5em; line-height: 3; }
+.techBrunch .cnt2 { background: #333; color: #fff;}
+.techBrunch .cnt2 h2 { font-size: 1.3em; line-height: 3; }
+
+
+
+
+
+
+html, 
+body {
+	margin: 0; 
+	padding: 0; 
+}
+.templatex { display: none; }
+
+.memberbx, 
+.techBrunch .cnt1, 
+.techBrunch .cnt2 {
+	border: 1px solid transparent;
+}
+
+.boardHtml { border-top: 40px solid #ccc; }
+
+.logo { padding: 50px 0; text-align: center; }
+.nav { position: absolute; top: 0; 
+right: 0; height: 40px; }
+.nav .hx { display: none; }
+.nav ul { margin: 0; padding: 0; }
+.nav ul:after { content: ""; display: block; clear: both; }
+.nav li { float: left; margin-right: 10px; }
+
+.vision { margin-bottom: 80px; text-align: center; }
+.vision .h1 { display: none; }
+
+.memberbx .h1 { text-align: center; }
+.members { margin: 0 auto; width: 940px; }
+.members:after { content: ''; display: block; clear: both; }
+.vcard {
+	float: left; 
+	margin-right: 1%;
+	width: 32%;
+	height: 230px; 
+	text-align: center; 
+}
+.members img {
+	width: 100px; 
+	height: 100px;
+	border-radius: 100%; 
+}
+.memberbx .box1 { display: block; margin: 5px 0; }
+.memberbx .fn { display: block; }
+
+
+.techBrunch a { display: inline-block; margin: 1.5em 0; border-bottom: 1px solid #fff; }
+.techBrunch header { text-align: center; }
+.techBrunch header .h1 { padding-bottom: 70px; }
+.techBrunch header p { padding-bottom: 330px; margin-bottom: 50px; }
+.techBrunch .inr { margin: 0 auto; width: 940px; }
+.techBrunch dd { margin: 0; }
+.techBrunch dd.fn { margin: .5em 0 1.5em; }
+.techBrunch .cnt1, 
+.techBrunch .cnt2 { padding-bottom: 2em; }

@@ -1,0 +1,58 @@
+var renderJson = {
+  "members": [
+    {
+      "photo": "./image/members/chanwook.jpg", 
+      "fn": "박찬욱", 
+      "email": "chanwook.god@gmail.com", 
+      "note": "나인브릿지 모임을 즐기는 1인. 오늘 하루 나의 노력과 이 활동의 나와 우리의 미래를 만들어 간다고 믿으며 하루하루를 살아가는 중이다."
+    }, 
+    {
+      "photo": "./image/members/image_moonseok.jpg", 
+      "fn": "최문석", 
+      "email": "moonseok.choi@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/image_dipred.jpg", 
+      "fn": "김선희", 
+      "email": "dipred@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/image_yoe21c.jpg", 
+      "fn": "윤여진", 
+      "email": "yoe21c@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/image_yours012.jpg", 
+      "fn": "진광용", 
+      "email": "yours012@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/image_rotoshine.jpg", 
+      "fn": "김태희", 
+      "email": "rotoshine@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/image_devsejong.jpg", 
+      "fn": "박세종", 
+      "email": "devsejong@gmail.com", 
+      "note": ""
+    },
+    {
+      "photo": "./image/members/soopul.jpg", 
+      "fn": "김동혁", 
+      "email": "with@soopul.com", 
+      "note": "마귀"
+    }, 
+    {
+      "photo": "./image/members/image_coolserine1010.jpg", 
+      "fn": "신세리", 
+      "email": "coolserine1010@gmail.com", 
+      "note": ""
+    } 
+  ]
+}; 
